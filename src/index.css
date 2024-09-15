@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.imgSrc {
+  height: 52vh;
+  width: 50vh;
+}
+.container {
+  display: flex;
+  margin: 5vh;
+}
+
+.title-image {
+  flex: 1;
+  margin-left: 4vh;
+  border-radius: 30%;
+}
+
+.properties {
+  margin-top: 10vh;
+  flex: 2;
+}
+
+.location-img {
+  /* margin-top: 2vh; */
+  margin-bottom: -0.5vh;
+  height: 3vh;
+  width: 3vh;
+  border-radius: 4vw;
+}
+
+.maps-link {
+  color: grey;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.navbar {
+  background-color: rgb(243, 94, 94);
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+}
+
+.navbar-para {
+  /* text-align: center; */
+  color: white;
+  padding-bottom: -5vh;
+  font-size: large;
+}
+
+.navbar-img {
+  height: 3vh;
+  width: 3vh;
+}
